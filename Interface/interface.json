@@ -1,0 +1,193 @@
+[
+  {
+    "action": "createNewDocument",
+    "file": ""
+  },
+  {
+    "action": "createFrontPage",
+    "document": "open",
+    "paths": {
+      "document": "L:\\GB\\GBs\\Ausgaben\\Hamburg-Süd\\2020\\10\\Buxtehude\\Ausgabe",
+      "logos": "L:\\GB\\Bilder\\Logos\\",
+      "kirchen": "L:\\GB\\Bilder\\Logos\\"
+    },
+    "congregation": "Buxtehude",
+    "my": {
+      "month": "Dezember",
+      "year": "2020"
+    },
+    "citation": {
+      "text": "Hier kommt ein Zitat",
+      "location": "Und hier steht es"
+    },
+    "image": {
+      "x": 100,
+      "height": 200,
+      "content": "Kirche_Buxtehude_HQ.tif",
+      "zoom": 75,
+      "localPosition": [
+        25,
+        10
+      ]
+    }
+  },
+  {
+    "action": "createLastPage",
+    "document": "open",
+    "impress": {
+      "digital_notice": {
+        "font_size": 8,
+        "line_spacing": 8
+      },
+      "street": "Goehtestraße",
+      "number": "7",
+      "zip": "21614",
+      "city": "Buxtehude",
+      "internet": "",
+      "responsible": {
+        "firstname": "Frank",
+        "lastname": "Bayer"
+      },
+      "editorial_staff": {
+        "name": {
+          "firstname": "Horst",
+          "lastname": "Ramacher"
+        },
+        "phone": {
+          "prefix": "04161",
+          "extension": "736874"
+        },
+        "email": "faisdodo_buxtehude@gmx.de"
+      },
+      "circulation": "40"
+    },
+    "recurringEvents": [
+      {
+        "type": "Gottesdienste",
+        "rows": 1,
+        "value": "Sonntags, 10:00 Uhr und mittwochs, 19:30 Uhr"
+      }
+    ],
+    "pastors": [
+      {
+        "name": {
+          "firstname": "Frank",
+          "lastname": "Bayer"
+        },
+        "ministry": "Priester",
+        "phone": {
+          "active": true,
+          "prefix": "04168",
+          "extension": "911870"
+        },
+        "mobile": {
+          "prefix": "",
+          "extension": "",
+          "active": false
+        },
+        "address": {
+          "active": false,
+          "street": "",
+          "number": "",
+          "zip": "",
+          "city": ""
+        },
+        "email": {
+          "active": false,
+          "email": ""
+        },
+        "special": {
+          "special": "Gemeindevorsteher",
+          "active": true
+        },
+        "rows": 2
+      }
+    ]
+  },
+  {
+    "action": "pageNumbering",
+    "destinationFile": [
+      "eins",
+      "zwei"
+    ]
+  },
+  {
+    "action": "pageCategories",
+    "document": "xyz",
+    "pages": [
+      {
+        "number": 1,
+        "text": "Aus Nord- und Ostdeutschland"
+      },
+      {
+        "number": 2,
+        "text": [
+          "aus Nord- und Ostdeutschland",
+          "aus dem Bezirk"
+        ]
+      }
+    ]
+  },
+  {
+    "action": "newPage",
+    "document": "xyz",
+    "pageAction": "before",
+    "pageNumber": 2,
+    "category": "aus der Gemeinde"
+  },
+  {
+    "action": "textwords",
+    "document": "eins",
+    "page": "last usw.",
+    "text": "jkkl",
+    "textwords": [
+      {
+        "date": "01.01.2020",
+        "location": {
+          "prefix": "",
+          "book": "",
+          "chapter": "",
+          "from": "",
+          "to": ""
+        },
+        "special": "",
+        "bibelReading": {
+          "prefix": "",
+          "book": "",
+          "chapter": "",
+          "from": "",
+          "to": ""
+        }
+      }
+    ]
+  },
+  {
+    "action": "newArticle",
+    "document":"",
+    "headline": "CYZ",
+    "text": "Filename",
+    "page": 0,
+    "images": []
+  },
+  {
+    "action": "newArticle",
+    "document":"",
+    "page": 1,
+    "headline": "CYZ",
+    "text": "Filename",
+    "images": [
+      {
+        "file": "kjlajklfs",
+        "position": "top",
+        "alignment": "middel",
+        "size": "1column"
+      }
+    ]
+  },
+  {
+    "action": "schedules",
+    "document": "file",
+    "data": [],
+    "page": 2
+  }
+]
